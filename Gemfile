@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'devise', '3.0.0.rc'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc2'
 
@@ -40,3 +41,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rspec-rails', group: [:development, :test]
+gem 'pry-rails', group: [:development]
