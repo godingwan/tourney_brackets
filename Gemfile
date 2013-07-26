@@ -44,3 +44,6 @@ end
 
 gem 'rspec-rails', group: [:development, :test]
 gem 'pry-rails', group: [:development]
+gem 'capybara', group: [:test]
+gem 'factory_girl_rails', group: [:test]
+gem 'launchy', group: [:test]
